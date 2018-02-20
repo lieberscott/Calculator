@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*
+Color code @bottom of css file from Saumitra Bose, who credits Ruandré Janse van Rensburg
+
+Saumitra Bose:
+https://codepen.io/imtoobose/pen/yJOZEB
+
+Ruandré Janse van Rensburg:
+https://codepen.io/ruandre/pen/howFi?editors=1100
+
+*/
+body {
+  background: #a6a6a8;
+  font-family: "Titillium Web", sans-serif;
+}
+
+table {
+  background: #222323;
+  border-collapse: separate;
+  border-radius: 10px;
+  color: white;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 316px;
+}
+
+td {
+  border: 2px solid;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+#div {
+  font-family: "Amiko", sans-serif;
+}
+
+#ops {
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  padding-right: 20px;
+  text-align: right;
+  max-width: 242px;
+}
+
+#screen {
+  overflow: hidden;
+  padding-right: 20px;
+  display: absolute;
+  text-align: right;
+  max-width: 202px;
+  font-size: 24px;
+}
+
+/*
+
+Color code below from Saumitra Bose, who credits Ruandré Janse van Rensburg
+
+Saumitra Bose:
+https://codepen.io/imtoobose/pen/yJOZEB
+
+Ruandré Janse van Rensburg:
+https://codepen.io/ruandre/pen/howFi?editors=1100
+
+*/
+#ac {
+  border-color: #d02525;
+  color: #d02525;
+}
+#ac:hover {
+  background: #d02525;
+  color: #222323;
+}
+
+#ce {
+  border-color: #d94a26;
+  color: #d94a26;
+}
+#ce:hover {
+  background: #d94a26;
+  color: #222323;
+}
+
+#div {
+  border-color: #d96e26;
+  color: #d96e26;
+}
+#div:hover {
+  background: #d96e26;
+  color: #222323;
+}
+
+#mult {
+  border-color: #d99126;
+  color: #d99126;
+}
+#mult:hover {
+  background: #d99126;
+  color: #222323;
+}
+
+#sev {
+  border-color: #d9b526;
+  color: #d9b526;
+}
+#sev:hover {
+  background: #d9b526;
+  color: #222323;
+}
+
+#eight {
+  border-color: #d9d926;
+  color: #d9d926;
+}
+#eight:hover {
+  background: #d9d926;
+  color: #222323;
+}
+
+#nine {
+  border-color: #b5d926;
+  color: #b5d926;
+}
+#nine:hover {
+  background: #b5d926;
+  color: #222323;
+}
+
+#sub {
+  border-color: #91d926;
+  color: #91d926;
+}
+#sub:hover {
+  background: #91d926;
+  color: #222323;
+}
+
+#four {
+  border-color: #6ed926;
+  color: #6ed926;
+}
+#four:hover {
+  background: #6ed926;
+  color: #222323;
+}
+
+#five {
+  border-color: #4ad926;
+  color: #4ad926;
+}
+#five:hover {
+  background: #4ad926;
+  color: #222323;
+}
+
+#six {
+  border-color: #26d926;
+  color: #26d926;
+}
+#six:hover {
+  background: #26d926;
+  color: #222323;
+}
+
+#add {
+  border-color: #26d94a;
+  color: #26d94a;
+}
+#add:hover {
+  background: #26d94a;
+  color: #222323;
+}
+
+#one {
+  border-color: #26d96e;
+  color: #26d96e;
+}
+#one:hover {
+  background: #26d96e;
+  color: #222323;
+}
+
+#two {
+  border-color: #26d991;
+  color: #26d991;
+}
+#two:hover {
+  background: #26d991;
+  color: #222323;
+}
+
+#three {
+  border-color: #26d9b5;
+  color: #26d9b5;
+}
+#three:hover {
+  background: #26d9b5;
+  color: #222323;
+}
+
+#eqls {
+  border-color: #26d9d9;
+  color: #26d9d9;
+}
+#eqls:hover {
+  background: #26d9d9;
+  color: #222323;
+}
+
+#zero {
+  border-color: #26b5d9;
+  color: #26b5d9;
+}
+#zero:hover {
+  background: #26b5d9;
+  color: #222323;
+}
+
+#point {
+  border-color: #2691d9;
+  color: #2691d9;
+}
+#point:hover {
+  background: #2691d9;
+  color: #222323;
+}

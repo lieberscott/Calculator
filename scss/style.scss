@@ -1,0 +1,91 @@
+/*
+Color code @bottom of css file from Saumitra Bose, who credits Ruandré Janse van Rensburg
+
+Saumitra Bose:
+https://codepen.io/imtoobose/pen/yJOZEB
+
+Ruandré Janse van Rensburg:
+https://codepen.io/ruandre/pen/howFi?editors=1100
+
+*/
+
+$back: #222323;
+$gray: #a6a6a8;
+
+body {
+  background: $gray;
+  font-family: "Titillium Web", sans-serif;
+}
+
+table {
+  background: $back;
+  border-collapse: separate;
+  border-radius: 10px;
+  color: white;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 316px;
+}
+
+// tbody::before {
+//   content: "&nbsp";
+//   padding-top: 20px;
+// }
+
+td {
+  border: 2px solid;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+#div {
+  font-family: "Amiko", sans-serif;
+}
+
+#ops {
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  padding-right: 20px;
+  text-align: right;
+  max-width: 242px;
+}
+
+#screen {
+  overflow: hidden;
+  padding-right: 20px;
+  display: absolute;
+  text-align: right;
+  max-width: 202px;
+  font-size: 24px;
+}
+
+/*
+
+Color code below from Saumitra Bose, who credits Ruandré Janse van Rensburg
+
+Saumitra Bose:
+https://codepen.io/imtoobose/pen/yJOZEB
+
+Ruandré Janse van Rensburg:
+https://codepen.io/ruandre/pen/howFi?editors=1100
+
+*/
+
+$angle:0;
+$color: hsl($angle, 70%, 48%);
+$list: "ac", "ce", "div", "mult", "sev", "eight", "nine", "sub", "four", "five", "six", "add", "one", "two", "three", "eqls", "zero", "point";
+
+@each $i in $list{
+  ##{$i}{
+    border-color:$color;
+    color:$color;
+    &:hover{
+      background:$color;
+      color:$back;
+    }
+    $angle:$angle+12;
+    $color:hsl($angle, 70%, 50%);
+  }
+}
